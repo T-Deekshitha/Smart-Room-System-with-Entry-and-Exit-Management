@@ -22,3 +22,8 @@ S3 : 3 people in the room (full)
 
 
 By making state table and excitation table we can get expressions for outputs and flipflop inputs. Two D flipflops are used in this circuit as shown in the block diagram.
+Combiantional block is built based on those logics.
+Giving control to user when room is not empty is just putting an AND gate with inputs as actual switch and inverted "empty". So, if room is empty, inverted "empty" will be low and automatically outputs for devices will be low.
+
+
+Tool used for simulation is Logisim.
