@@ -8,8 +8,11 @@ As control is given to user when room is not empty, we consider actual switches 
 This is a Moore finite state machine. It consists of 4 states as maximum occupancy is 3.
 
 S0 : empty
+
 S1: 1 person in the room
+
 S2 : 2 people in the room
+
 S3 : 3 people in the room (full)
 
 ![smart_room_fsm_state_diagram](https://github.com/user-attachments/assets/be4eb830-2c19-4985-93be-6f364d0ad9d1)
